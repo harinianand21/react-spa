@@ -1,0 +1,74 @@
+/* ===== Global Modern UI ===== */
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #3f2b96, #a8c0ff);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px 0;
+}
+
+/* ===== Card Container ===== */
+.page-container {
+  width: 90%;
+  max-width: 650px;
+  background: rgba(255, 255, 255, 0.15);
+  padding: 40px;
+  border-radius: 20px;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+  color: white;
+  text-align: center;
+  animation: fadeIn 0.7s ease;
+}
+
+/* ===== Text ===== */
+h1, h2 {
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+p {
+  opacity: 0.9;
+  font-size: 15px;
+}
+
+/* ===== Buttons ===== */
+button {
+  padding: 12px 20px;
+  background: #ffffff;
+  border: none;
+  color: #3f2b96;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #e6e6e6;
+}
+
+/* ===== Dashboard Navigation ===== */
+.dashboard-nav a {
+  margin: 0 12px;
+  padding: 10px 16px;
+  background: rgba(255,255,255,0.2);
+  border-radius: 8px;
+  color: #ffffff;
+  font-weight: 500;
+  transition: 0.25s;
+}
+
+.dashboard-nav a:hover {
+  background: rgba(255,255,255,0.35);
+}
+
+/* ===== Animation ===== */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
